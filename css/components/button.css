@@ -1,0 +1,13 @@
+.button-white {
+  background-color: white;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin: 16px;
+  color: grey;
+  box-shadow: 0 0 4px grey;
+}
+
+.button-white:hover {
+  color: black;
+  transition: 1s;
+}
