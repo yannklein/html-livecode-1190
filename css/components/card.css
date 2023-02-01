@@ -1,37 +1,35 @@
+.cards {
+  display: flex;
+  gap: 16px;
+}
+
 .card-white {
-  margin-top: 56px;
   background-color: white;
-  width: 500px;
-  /* height: 300px; */
-  padding: 16px;
-  margin-bottom: 16px;
+  padding: 8px;
+  margin-bottom: 8px;
 }
 
-.card-img {
-  height: 300px;
+.card-image {
+  height: 200px;
+  width: 300px;
   background-size: cover;
+  background-position: 50% 30%;
 }
 
-.card-white a {
+.card-image a{
   opacity: 0;
-  transition: opacity 1s;
 }
 
 .card-white:hover a {
   opacity: 1;
+  transition: 1s;
 }
 
-.card-footer {
+.card-info {
   display: flex;
   align-items: center;
 }
 
-.card-footer img {
+.card-info img {
   margin-right: 8px;
-}
-
-.cards {
-  display: flex;
-  gap: 16px;
-  padding: 16px;
 }
