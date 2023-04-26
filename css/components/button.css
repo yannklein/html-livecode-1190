@@ -1,8 +1,8 @@
-.button-white{
+.btn-white {
+  border-radius: 6px;
+  padding: 8px;
   background-color: white;
-  color: silver;
-  border: 2px solid silver;
-  padding: 8px 16px;
   margin: 16px;
-  border-radius: 4px;
+  color: gray;
+  border: 1px solid gray;
 }
